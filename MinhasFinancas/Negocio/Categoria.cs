@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MinhasFinancas.Negocio
+{
+    public class Categoria
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public Categoria() { }
+        public Categoria(string nome)
+        {
+            Nome = nome;
+        }
+    }
+}
